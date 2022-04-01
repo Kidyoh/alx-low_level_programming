@@ -1,10 +1,19 @@
-aysi@ubuntu:~/0x0A. argc, argv$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-add.c -o add
-aysi@ubuntu:~/0x0A. argc, argv$ ./add 1 1
-2
-aysi@ubuntu:~/0x0A. argc, argv$ ./add 1 10 100 1000
-1111
-aysi@ubuntu:~/0x0A. argc, argv$ ./add 1 2 3 e 4 5
-Error
-aysi@ubuntu:~/0x0A. argc, argv$ ./add
-0
-aysi@ubuntu:~/0x0A. argc, argv$ 
+# Argc, argv
+Project done during **Full Stack Software Engineering studies** at **Holberton School**. It aims to learn about how to use arguments passed to a program in **C language**.
+
+## Technologies
+* C files are compiled using `gcc 4.8.4`
+* C files are written according to the C90 standard
+* Tested on Ubuntu 14.04 LTS
+
+## Files
+All of the following files are programs written in C:
+
+| Filename | Description |
+| -------- | ----------- |
+| `0-whatsmyname.c` | Prints its name |
+| `1-args.c` | Prints the number of arguments passed into it |
+| `2-args.c` | Prints all arguments it receives |
+| `3-mul.c` | Multiplies two numbers |
+| `4-add.c` | Adds positive numbers |
+| `100-change.c` | Prints the minimum number of coins to make change for an amount of money |
